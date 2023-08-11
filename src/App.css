@@ -1,3 +1,6 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +39,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+.custom-navbar {
+  background-color: #2ecc71;
+ } /* Cambia al color que prefieras
+
+
+/* Estilos personalizados para el NavBar */
+.navbar {
+  background-color: #db34ba; /* Cambia el color de fondo del NavBar */
+}
+
+.navbar-brand {
+  color: #3609a8; /* Cambia el color del texto del enlace de la marca */
+  font-size: 1.5rem; /* Cambia el tamaño del texto de la marca */
+}
+
+.nav-link-custom {
+  color: #333; /* Cambia el color del texto de los enlaces del menú */
+  transition: color 0.3s, font-size 0.3s; /* Agrega una transición suave para los cambios */
+}
+
+.nav-link-custom:hover {
+  color: #e74c3c; /* Cambia el color del texto al pasar el mouse sobre los enlaces */
+  font-size: 1.1rem; /* Cambia el tamaño del texto al pasar el mouse sobre los enlaces */
+}
+
+
+
